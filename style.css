@@ -1,0 +1,152 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    padding: 5px 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.gap30{
+    gap: 30px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    background-color: darkorange;
+    padding: 5px 15px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+    width: 65vw;
+    margin: auto;
+}
+
+h1{
+    margin: 0;
+    font-weight: 500;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+    /* margin: 0; */
+}
+
+.pic{
+    height: 250px;
+    width: 450px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-info{
+    display: flex;
+    gap: 15px;
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name,
+.description{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.dp{
+    width: 82px;
+    height: 82px;
+}
+
+h6, h2{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    width: 70vw;
+    margin: auto;
+}
+
+.sub-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.pic.sub{
+    height: 200px;
+    width: 350px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cpright{
+    font-size: 14px;
+}
+
+
+
